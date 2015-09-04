@@ -16,21 +16,6 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: white; /* #49aa3a; Isa*/
-    text-shadow: 1px 1px #000000;
-}
-
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-}
-
 /* Custom Button Styles */
 
 .btn-dark {
@@ -164,23 +149,71 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
-
-.about {
-    padding: 20px 0;
+.header__cta {
+  color: #fff;
+  display: table-cell;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  vertical-align: middle;
 }
 
-/* Why */
+.header__tagline {
+  margin: 0;
+  margin-bottom: 0.5em;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.what-we-do {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.what-we-do__title {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.what-we-do__details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.what-we-do__details-item {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.why-position {
+  text-align: center;
+}
+
+.why-position__title {
+  font-size: 2.3em;
+  margin-bottom: 1em;
+}
+
+.why-position p {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.why-position__stats {
+  width: 100%;
+}
+
 
 .why {
     padding: 20px 0;
 }
 
-/* Services */
-
 .services {
     padding: 20px 0;
-    background-color: #0098d9 !important;
+    background-color: #0098d9;
+    color: #fff;
+    text-align: center;
 }
 
 .service-item {
@@ -205,10 +238,9 @@ hr.small {
     background-repeat: no-repeat;
 }
 
-/* Portfolio */
-
 .portfolio {
     padding: 20px 0;
+    text-align: center;
 }
 
 .portfolio-item {
@@ -216,12 +248,24 @@ hr.small {
     position: relative;
 }
 
-.text-image { 
+.portfolio-item .pi__bg {
+  color: #49aa3a;
+}
+
+.portfolio-item .pi__logo {
+  color: #fff;
+}
+
+.portfolio-item__description {
+  font-size: 1.8em;
+}
+
+.text-image {
    font-size: 20px;
-   position: absolute; 
-   vertical-align: middle; 
-   left: 0; 
-   width: 100%; 
+   position: absolute;
+   vertical-align: middle;
+   left: 0;
+   width: 100%;
 }
 
 .img-portfolio {
@@ -241,6 +285,23 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    text-align: center;
+}
+
+.call-to-action__title {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+}
+
+.call-to-action p {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.call-to-action__results {
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0;
 }
 
 .call-to-action .btn {
@@ -259,8 +320,12 @@ hr.small {
     }
 }
 
-/* Footer */
-
 footer {
     padding: 50px 0;
+}
+
+.contact-ways {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5em;
 }
